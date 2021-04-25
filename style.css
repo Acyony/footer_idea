@@ -1,0 +1,59 @@
+footer {
+  height: 10rem;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+footer img {
+    width: 10rem;
+    padding: 1rem;
+  }
+
+footer img:hover {
+  background-color: #f7a59d;
+  border-radius: 5px;
+}
+
+.footer-line-style {
+    color: #4b4b4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6875rem;
+    font-weight: 700;
+    margin: 0 1.625rem;
+}
+
+.footer-line-style:before {
+  margin-left: 80px;
+  right: 30px;
+}
+
+.footer-line-style:after {
+  margin-right:  80px;
+  left: 30px;
+}
+
+.footer-line-style:before,
+.footer-line-style:after {
+    background-color: #f7a59d;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+}
+
+span {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+
+
+
+
+
+
